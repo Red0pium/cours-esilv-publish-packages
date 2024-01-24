@@ -17,7 +17,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/red0pium/publish-packages/game
+          images: ghcr.io/Red0pium/publish-packages/game
           tags: type=sha
       - name: Login to GHCR
         uses: docker/login-action@v3
